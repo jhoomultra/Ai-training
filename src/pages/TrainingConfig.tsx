@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Settings, Save, RotateCcw, Info, Zap } from 'lucide-react'
-import toast from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 
 interface TrainingConfig {
   learning_rate: number

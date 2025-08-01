@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Server, Play, Square, Copy, ExternalLink, Settings, Code } from 'lucide-react'
-import toast from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 
 interface Deployment {
   id: string
@@ -304,14 +304,14 @@ print(result["response"])`
                 <div className="flex items-center justify-between mb-2">
                   <h4 className="text-sm font-medium text-gray-900">cURL</h4>
                   <button
-                    onClick={() => copyToClipboard(generateCurlExample(deployments[0].endpoint_url))}
+                    onClick={() => copyToClipboard(generateCurlExample((deployments[0]?.endpoint_url ?? '') ?? ''))}
                     className="text-sm text-primary-600 hover:text-primary-700"
                   >
                     Copy
                   </button>
                 </div>
                 <pre className="bg-gray-900 text-green-400 p-4 rounded-lg text-sm overflow-x-auto">
-                  {generateCurlExample(deployments[0].endpoint_url)}
+                  {generateCurlExample((deployments[0]?.endpoint_url ?? '') ?? '')}
                 </pre>
               </div>
               
@@ -319,14 +319,14 @@ print(result["response"])`
                 <div className="flex items-center justify-between mb-2">
                   <h4 className="text-sm font-medium text-gray-900">Python</h4>
                   <button
-                    onClick={() => copyToClipboard(generatePythonExample(deployments[0].endpoint_url))}
+                    onClick={() => copyToClipboard(generatePythonExample((deployments[0]?.endpoint_url ?? '') ?? ''))}
                     className="text-sm text-primary-600 hover:text-primary-700"
                   >
                     Copy
                   </button>
                 </div>
                 <pre className="bg-gray-900 text-green-400 p-4 rounded-lg text-sm overflow-x-auto">
-                  {generatePythonExample(deployments[0].endpoint_url)}
+                  {generatePythonExample((deployments[0]?.endpoint_url ?? '') ?? '')}
                 </pre>
               </div>
             </>

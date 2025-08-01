@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Play, Square, Download, RefreshCw, TrendingUp, Clock, CheckCircle, AlertCircle } from 'lucide-react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
-import toast from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 
 interface TrainingStatus {
   is_training: boolean

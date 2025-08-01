@@ -1,13 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
-import Dashboard from './pages/Dashboard'
-import DatasetUpload from './pages/DatasetUpload'
-import ModelSelection from './pages/ModelSelection'
-import TrainingConfig from './pages/TrainingConfig'
-import TrainingMonitor from './pages/TrainingMonitor'
-import APIDeployment from './pages/APIDeployment'
-import ModelManagement from './pages/ModelManagement'
+import Layout from './components/Layout.js'
+import Dashboard from './pages/Dashboard.js'
+import DatasetUpload from './pages/DatasetUpload.js'
+import ModelSelection from './pages/ModelSelection.js'
+import TrainingConfig from './pages/TrainingConfig.js'
+import TrainingMonitor from './pages/TrainingMonitor.js'
+import APIDeployment from './pages/APIDeployment.js'
+import ModelManagement from './pages/ModelManagement.js'
 
 function App() {
   return (

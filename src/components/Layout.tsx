@@ -5,7 +5,7 @@ import {
   Database, 
   Settings, 
   Play, 
-  Api, 
+   
   FolderOpen,
   BarChart3,
   Cpu
@@ -24,7 +24,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { name: 'Select Model', href: '/models', icon: Cpu },
     { name: 'Configure Training', href: '/config', icon: Settings },
     { name: 'Training Monitor', href: '/training', icon: Play },
-    { name: 'API Deployment', href: '/api', icon: Api },
     { name: 'Model Management', href: '/manage', icon: FolderOpen },
   ]
 

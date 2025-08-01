@@ -1,0 +1,24 @@
+nohup: ignoring input
+INFO:     Started server process [15544]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50814 - "GET / HTTP/1.1" 200 OK
+INFO:     110.224.21.142:0 - "GET /sitemap.xml HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET /sitemap.xml HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET /sitemap.xml HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET /sitemap.xml HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET / HTTP/1.0" 200 OK
+INFO:     64.233.173.224:0 - "GET / HTTP/1.0" 200 OK
+INFO:     64.233.173.224:0 - "GET / HTTP/1.0" 200 OK
+INFO:     110.224.21.142:0 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:48754 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58104 - "GET / HTTP/1.1" 200 OK
+INFO:     110.224.21.142:0 - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:     110.224.21.142:0 - "GET / HTTP/1.0" 200 OK
+INFO:     127.0.0.1:43616 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38472 - "GET /stalker_portal/server/tools/auth_simple.php HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58164 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42574 - "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41870 - "GET / HTTP/1.1" 200 OK

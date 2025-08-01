@@ -11,7 +11,7 @@ import {
   Cpu,
   BarChart3
 } from 'lucide-react'
-import toast from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 
 interface ModelInfo {
   id: string
